@@ -1,0 +1,131 @@
+$color: #000;
+$color-bg: #eee;
+
+body {
+  background: $color-bg;
+  color: $color;
+  font: 100%/1.5em sans-serif;
+  margin: 0;
+}
+
+input {
+  background-image: none;
+  border: none;
+  font: 100%/1.5em sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+/* ---------- LOGIN ---------- */
+header {
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10%;
+}
+header div {
+  width: 70px;
+  height:70px;
+  background-color:gray;
+  display: inline-block;
+  margin-right:20px;
+  border-radius:50%;
+}
+header span{
+  display: inline-block;
+}
+header span h2 {
+	color: blue;
+  font-size:28px;
+  margin: 0 auto;
+}
+header span h4 {
+	color: blue;
+  margin: 0 auto;
+}
+section {
+	width: 400px;
+  margin: 0 auto;
+  border-radius: 5px 5px 5px 5px;
+  transition: all 1s;
+  box-shadow: 0px 0px 5px #767676; 
+}
+section:hover {
+  box-shadow:0px 0px 15px #767676;
+  transition: all 1s;
+}
+fieldset {
+  background: #fff;
+  border:none;
+  border-radius: 5px 5px 5px 5px;
+  padding: 20px 26px;
+}
+
+fieldset p {
+  color: #777;
+  margin-bottom: 14px;
+}
+
+fieldset p:last-child {
+  margin-bottom: 0;
+}
+
+fieldset input {
+  border-radius: 3px;
+}
+
+fieldset input[type="email"], fieldset input[type="password"] {
+  background: #eee;
+  color: #777;
+  padding: 8px 10px;
+  width: 93%;
+}
+
+fieldset input[type="submit"] {
+  background: #dd0094;
+  color: #fff;
+  display: block;
+  padding: 4px 0;
+  width: 135px;
+  height: 40px;
+  font-size: 15px;
+  border-radius:25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+fieldset input[type="submit"]:hover {
+  background: #ab0086;
+  transition: all .7s;
+  box-shadow: 0px 0px 7px black;
+}
+fieldset div p, a {
+  display: inline-block;
+}
+fieldset div a {
+  text-decoration:underline;
+  color: #777;
+  margin-left: 20%;
+}
+fieldset div a:hover {
+  color: #ab0086;
+  transition: all .7s;
+}
+footer {
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+}
+footer div p, a {
+  display: inline-block;
+}
+footer div a {
+  text-decoration:underline;
+  color: #777;
+  margin-left: 20%;
+}
+footer div a:hover {
+  color: #ab0086;
+  transition: all .7s;
+}
